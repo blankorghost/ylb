@@ -1,0 +1,17 @@
+#comments li{
+	border: 1px solid #eee;
+	margin-top: 15px;
+}
+#essayall{
+	line-height: 30px;
+}
+#wcomment img{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+#comments img{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}

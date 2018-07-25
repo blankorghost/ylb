@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="false"/>
+    <constant name="struts.objectFactory" value="spring"/>
+    <constant name="struts.custom.i18n.resources" value="ApplicationResources"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <!--<package name="rljson" namespace="/" extends="json-default">
+        <global-allowed-methods>regex:.*</global-allowed-methods>
+        <action name="checkUserEmail" class="com.views.action.emailAction">
+            <result type="json">
+                <param name="root">result</param>
+            </result>
+        </action>
+    </package>
+    <package name="default" namespace="/" extends="struts-default">
+        <global-allowed-methods>regex:.*</global-allowed-methods>
+
+        <action name="user_*" class="userAction" method="{1}">
+            <result name="login" type="redirect">/index.jsp</result>
+            <result name="error">/views/error.jsp</result>
+            <result name="register" type="redirect">/index.jsp</result>
+        </action>
+
+        <action name="w_*" class="essayAction" method="{1}">
+            <result name="success">/index.jsp</result>
+            <result name="error">/views/error.jsp</result>
+            <result name="getAll" type="redirect">/admin/all-essay.jsp</result>
+            <result name="deleok" type="redirectAction">w_getAll</result>
+            <result name="toindex" type="redirect">/index.jsp</result>
+            <result name="essaytxt" type="redirect">/views/essay.jsp</result>
+        </action>
+
+        <action name="query" class="essayAction" method="getAll">
+            <result name="success">/</result>
+            <result name="error">/views/error.jsp</result>
+        </action>
+
+        <action name="admin_*" class="adminAction" method="{1}">
+            <result name="success" type="redirect">/admin/adminindex.jsp</result>
+            <result name="error">/views/error.jsp</result>
+            <result name="getAll" type="redirect">/admin/userinfo.jsp</result>
+            <result name="getAllAdmin" type="redirect">/admin/admininfo.jsp</result>
+            <result name="addAdmin" type="redirectAction">admin_getAllAdmin</result>
+        </action>
+
+        <action name="userinfo" class="userinfoAction" method="allList">
+            <result name="success" type="redirect">/views/user.jsp</result>
+        </action>
+
+        <action name="search" class="searchAction" method="search">
+            <result name="success" type="redirect">/views/search.jsp</result>
+        </action>
+
+    </package>-->
+</struts>

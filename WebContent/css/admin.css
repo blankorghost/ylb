@@ -1,0 +1,64 @@
+body{
+background-color: RGB(216,216,216);
+}
+#menu  
+    {  
+        width:225px;  
+        height:320px;  
+        background-color:RGB(216,216,216);  
+        padding:0px;  
+        margin:0px;  
+    }  
+#menu ul  
+    {  
+        width:225px;  
+        list-style-type:none;  
+        padding:0px;  
+        margin:0px;  
+    }  
+#menu ul li  
+    {  
+        width:225px; 
+    }  
+#menu ul li a  
+    {  
+        display:block;            /*先转化成块级元素*/  
+        color:Gray;  
+        text-align:left;  
+        text-decoration:none;  
+        padding:10px 0px 10px 30px;    /*设置距离左侧的边栏和上边距*/  
+        font-size:14px;  
+    }  
+#menu ul li a:hover  
+    {   
+        text-align:left;  
+        text-decoration:none;  
+        padding:10px 0px 10px 30px;  
+        font-size:14px;  
+    }  
+    /*设置子菜单的样式*/  
+#menu ul li ul  
+    {  
+        list-style-type:none;   
+    }  
+#menu ul li ul li  
+    {  
+        width:225px; 
+    }  
+#menu ul li ul li a  
+    {  
+        display:block;  
+        padding:6px 0px 6px 60px;  
+        text-align:left;  
+        text-decoration:none;  
+        font-size:12px;  
+    }  
+#menu ul li ul li a:hover  
+    {  
+        padding:6px 0px 6px 60px;  
+        text-align:left;  
+        text-decoration:none;  
+        font-size:12px;  
+        color:black;  
+        background-color:#EF824E;  
+    } 
